@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin|Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin|Noto+Sans+JP|Pacifico&display=swap');
 
 html, body {
   width: 100%;
@@ -18,7 +18,11 @@ html, body {
 }
 
 .thank {
-  background-color: #e7e7e7;
+  /* background-image: url(../img/Nikki-Project-letterhead.png); */
+  /* background-color: #e7e7e7; */
+  height: 200px;
+  /* background-color: #cccccc; */
+  /* background-image: radial-gradient(grey, black); */
   margin: 100px;
   padding: 25px;
   border-radius: 50px;
@@ -37,6 +41,10 @@ html, body {
   width: 100px;
 }
 
+.head_name {
+  font-family: 'Pacifico', cursive;
+}
+
 .thank_img {
   height: 25px;
   width: 25px;
@@ -51,7 +59,7 @@ html, body {
 .cards {
   display: flex;
   flex-flow: column wrap;
-  /* justify-content: center; */
+  justify-content: center;
   text-align: center;
   align-items: center;
   font-family: 'Cabin', sans-serif;
@@ -59,23 +67,23 @@ html, body {
   
 }
 
-.vl {
-  border-left: 2px solid green;
-  height: 100px;
-}
-
 .cards_form > * {
   margin-top: 15px;
 }
 
 .form_submit {
-  background-color: aquamarine;
+  background-color: white;
+  border: 1px solid grey;
   border-radius: 10px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.form_submit:hover {
+  background-color: aquamarine;
 }
 
 .cards_img {
-  height: 200px;
-  width: 400px;
+  max-width: 400px;
 }
 
 

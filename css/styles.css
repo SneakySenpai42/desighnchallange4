@@ -68,11 +68,12 @@ html, body {
 .cards {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  justify-content: flex-end;
   text-align: center;
   align-items: center;
   font-family: 'Cabin', sans-serif;
   padding: 0px 50px 0px 50px;
+  margin-bottom: 50px;
   
 }
 
